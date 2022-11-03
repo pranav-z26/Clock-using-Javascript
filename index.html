@@ -15,6 +15,12 @@
     h1 {
       margin-bottom: 3rem;
     }
+
+    @media all and (max-width: 500px){
+      .navbar{
+        z-index: 999;
+      }
+    }
   </style>
 </head>
 
@@ -22,14 +28,14 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand m-2" href="#">Pranav' Project - Clock</a>
+    <a class="navbar-brand m-2" href="#">Pranav's Project - Clock</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </nav>
 
-  <div class="container my-5">
+  <div class="container my-5 mainc">
     <div class="p-5 mb-4 bg-light rounded-3 position-absolute top-50 start-50 translate-middle">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Current time is: <span id="time">
